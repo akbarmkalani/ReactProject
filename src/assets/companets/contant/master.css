@@ -1,0 +1,162 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Sans', sans-serif; */
+#bg {
+    background-image: url('../../img/img02.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
+#bg>div>section>h3 {
+    color: #DF5646;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#bg>div>section>h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 57px;
+    font-weight: bold;
+}
+
+#bg>div>section>p>span {
+    color: #DF5646;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#bg>div>section>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DF5646;
+    width: 160px;
+    height: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 8px;
+    transition: .4s;
+}
+#container{
+    background-color: #FAFAFA !important;
+}
+
+
+#bg>div>section>a:hover{
+    background-color: #0a0909;
+}
+#bg>div>section>a>i {
+    background-color: #dc321f;
+    border-radius: 50%;
+    display: flex; justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+#About>section>p:nth-of-type(1){
+    color: #dc321f;
+    font-size: 17px;
+}
+#About>section>p{
+    color: #848484; 
+}
+#About>section>h2{
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+#About>section>h4{
+    color: #848484;
+    font-family: 'Libre Baskerville', serif;
+}
+#About>section>h4>span{
+  color: #dc321f;
+  font-size: 17px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+
+#About>section>div>span>i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #dc321f;
+    border-radius: 50%;
+    color: #ffffff;
+}
+#About>section>div>span:nth-of-type(1){
+
+}
+#skill>section>div>ul>li{
+    list-style-type: none;
+}
+#skill>section>p:nth-of-type(1){
+    color: #dc321f;
+    
+}
+#skill>section>h2{
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+#skill>section>p:nth-of-type(2){
+    color: #848484; 
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#skill>section>div>ul>li>span{
+     background-color: #848484;
+position: relative;
+    
+     height: 5px;
+
+}
+
+
+#span1{
+    width: 90%;
+}
+#span1:after{
+    content: '90%';
+    position: absolute;
+    display: flex;
+    top: -20px;right: 0;
+}
+#span2{
+    width: 85%;
+}
+#span2:after{
+    content: '85%';
+    position: absolute;
+    display: flex;
+    top: -20px;right: 0;
+}
+#span23{
+    width: 80%;
+}
+#span3:after{
+    content: '80%';
+    position: absolute;
+    display: flex;
+    top: -20px;right: 0;
+}
+#span4{
+    width: 100%;
+}
+#span4:after{
+    content: '100%';
+    position: absolute;
+    display: flex;
+    top: -20px;right: 0;
+}

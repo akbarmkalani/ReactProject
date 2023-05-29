@@ -1,0 +1,98 @@
+#footerBg{
+    background-image: url('./../../img/girl.png');
+      background-position: center;
+      background-size: cover;
+      background-image: url('./../../img/girl.png'), linear-gradient(#050521, #0f0429); 
+}
+
+/* .F-herder{
+    background-color: #202020f1;
+
+} */
+
+.F-herder ul>div>li{
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.F-herder ul>div>li>a{
+    color: #ffffffff;
+    font-size: 33px;
+    text-decoration: none;
+    transition: .4s;
+}
+.F-herder ul>div>li>a:hover{
+    color: #DF5646;
+}
+
+.F-herder>div>section>div>p{
+    color: #ffffff;
+    font-size: 43px;
+    font-family: 'Libre Baskerville', serif
+}
+
+.F-herder>div>section>div>p>span{
+    color: #DF5646;
+}
+
+form>div>label{
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif
+}
+
+form>div>input{
+     background: none;
+     outline: none;
+     border: none;
+     border: 1px solid #6e6e6e;
+     height: 45px;
+     border-radius: 5px;
+     padding-left: 10px !important;
+}
+
+
+form>div>textarea{
+    background: none;
+
+}
+form>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DF5646;
+    width: 160px !important;
+    height: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 8px;
+    transition: .4s;
+}
+form>a:hover{
+    background-color: #0f0429;
+    color: #ffffff;
+}
+
+
+.conatct>div>h4{
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+}
+.conatct>div>span>p{
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+}
+.conatct>div>span>i{
+    background-color: #DF5646;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.conatct>div:nth-of-type(2)>span{
+    color: #ffffff;
+}
